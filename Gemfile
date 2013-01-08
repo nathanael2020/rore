@@ -39,12 +39,14 @@ gem 'state_machine', '~> 1.1.2'
 gem 'will_paginate', '~> 3.0.0'
 
 #gem 'memcache-client', '~> 1.8.5'
-group :production do
-  gem 'mysql2', '~> 0.3.10'
-end
+#group :production do
+  #gem 'mysql2', '~> 0.3.10'
+#end
+
+gem 'pg'
 
 group :development do
-  gem 'sqlite3'
+  #gem 'sqlite3'
   #gem 'awesome_print'
   #gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
   gem "autotest-rails-pure"
